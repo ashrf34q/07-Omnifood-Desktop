@@ -118,11 +118,52 @@
 }
 
 /************************/
+/*  FEATURED IN SECTION */
+/************************/
+
+.section-featured{
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in{
+  color: #666;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos img{
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+
+/************************/
 /*  HOW IT WORKS SECTION */
 /************************/
 
 .section-how {
   padding: 9.6rem 0;
+}
+
+.subheading {
+  /* span is an inline element */
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .step-text-box {
@@ -184,4 +225,32 @@
 
 .step-img {
   width: 35%;
+}
+
+
+/* ********************* */
+/* MEALS */
+/* ********************* */
+
+.section-meals{
+  padding: 9.6rem 0;
+}
+
+.meal{
+
+}
+
+.meal-img{
+  width: 100%;
+}
+
+.tag{
+}
+
+.meal-description{
+
+}
+
+.meal-attribute{
+  
 }
