@@ -121,11 +121,11 @@
 /*  FEATURED IN SECTION */
 /************************/
 
-.section-featured{
+.section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
 
-.heading-featured-in{
+.heading-featured-in {
   color: #666;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -140,12 +140,11 @@
   justify-content: space-between;
 }
 
-.logos img{
+.logos img {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
 }
-
 
 /************************/
 /*  HOW IT WORKS SECTION */
@@ -227,30 +226,66 @@
   width: 35%;
 }
 
-
 /* ********************* */
 /* MEALS */
 /* ********************* */
 
-.section-meals{
+.section-meals {
   padding: 9.6rem 0;
 }
 
-.meal{
-
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.2rem;
+  /* Better than setting border radius for the image specifically */
+  overflow: hidden;
 }
 
-.meal-img{
+.meal-img {
   width: 100%;
+  /* border-top-right-radius: 11px;
+  border-top-left-radius: 1.1rem; */
 }
 
-.tag{
+.tag {
+  /* span is an inline element, so make it inline block to be able to apply padding */
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
 }
 
-.meal-description{
-
+.meal-tag {
+  margin-bottom: 1.2rem;
 }
 
-.meal-attribute{
-  
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-description {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  /* We can use font-size since ion-icon hereacts just like an html tag */
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
 }
