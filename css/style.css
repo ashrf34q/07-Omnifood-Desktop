@@ -6,7 +6,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -369,7 +369,7 @@
 }
 
 .testimonials-container {
-  padding: 9.6rem;
+  padding: 9.6rem 3.2rem;
 }
 
 .testimonials {
@@ -571,7 +571,6 @@
 
   background-image: linear-gradient(to right bottom,#eb984e, #e67e22);
   border-radius: 11px;
-  height: 45rem;
   overflow: hidden;
 }
 
