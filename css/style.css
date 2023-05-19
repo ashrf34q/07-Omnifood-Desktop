@@ -2,6 +2,16 @@
 /* NAVIGATION */
 /****************************/
 
+
+html {
+  overflow-x: hidden;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -69,6 +79,7 @@
   /* Make the header sticky */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
