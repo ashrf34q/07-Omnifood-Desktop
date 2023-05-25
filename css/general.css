@@ -40,6 +40,8 @@ Greys: #555, #333
 html {
   /* 10px */
   font-size: 62.5%;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -52,7 +54,6 @@ body {
 strong {
   font-weight: 500;
 }
-
 
 /****************************/
 /* GENERAL COMPONENTS */
