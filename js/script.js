@@ -38,6 +38,34 @@ allLinks.forEach(function (link) {
 const element = document.getElementById("how");
 console.log(element);
 
+// ////////////////////////////////
+// Sticky navigation
+
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const entry = entries[0];
+    console.log(entry);
+
+    if (entry.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    } else {
+      document.body.classList.remove("sticky");
+    }
+  },
+
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+
+obs.observe(sectionHeroEl);
+
+// Safari
+
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
