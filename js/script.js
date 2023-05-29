@@ -65,7 +65,6 @@ const obs = new IntersectionObserver(
 obs.observe(sectionHeroEl);
 
 // Safari
-
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
