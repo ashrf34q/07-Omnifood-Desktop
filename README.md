@@ -1,1 +1,1 @@
-Link to the [https://ashraf-omnifood.netlify.app](website).
+Link to the [website](https://ashraf-omnifood.netlify.app).
